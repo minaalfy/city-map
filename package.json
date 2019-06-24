@@ -1,0 +1,34 @@
+{
+  "name": "city-map",
+  "version": "1.0.0",
+  "description": "highlighted city map with restricted pan, zoom and marker drag allowed only inside the city",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minaalfy/city-map.git"
+  },
+  "keywords": [
+    "google-maps",
+    "map",
+    "city",
+    "geocoder"
+  ],
+  "author": "minaalfy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minaalfy/city-map/issues"
+  },
+  "homepage": "https://github.com/minaalfy/city-map#readme",
+  "dependencies": {
+    "load-google-maps-api": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
